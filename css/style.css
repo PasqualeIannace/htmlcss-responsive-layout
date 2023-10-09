@@ -7,3 +7,78 @@
 body {
     font-family: sans-serif;
 }
+
+main {
+    padding: 2em 1em;
+}
+
+/* Classi generiche */
+
+.lightBlue {
+    background: #B5DDFF;
+}
+
+/* .mTB1 {
+    margin: 1em 0;
+} */
+
+.pCard {
+    padding: 0.5em;
+}
+
+/* Classi header */
+
+.navSct {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4em;
+    padding: 2em 1.5em;
+}
+
+.nav {
+    background-color: #0084FD;
+}
+
+
+/* Classi main */
+
+    /* Section 1 */
+
+.lSide > img {
+    width: 250px;
+}
+
+
+
+/* MEDIA QUERY */
+
+    /* Tablet */
+@media screen and (min-width:768px) {
+    .section1 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .pCard {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .bigContainer {
+        width: 66.5%;
+    }
+
+    .smallContainer {
+        width: 33%;
+    }
+}
+
+    /* Desktop */
+@media screen and (min-width:1100px) {
+    section {
+        max-width: 1100px;
+        margin: 0 auto;
+    }
+}
