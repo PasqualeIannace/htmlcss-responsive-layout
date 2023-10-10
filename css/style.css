@@ -12,6 +12,11 @@ footer {
     background: #333333;
 }
 
+p {
+    line-height: 1.5em;
+    padding: 2em 0;
+}
+
 /* Classi generiche */
 
 .lightBlue {
@@ -34,6 +39,24 @@ footer {
     width: 100%;
 }
 
+.borderR20 {
+    border-radius: 20px;
+}
+
+.centerStyle {
+    text-align: center;
+}
+
+.paddingCnt {
+    padding: 2em 1em 0 1.5em;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 0.7em 3em;
+    border-radius: 20px;
+}
+
 /* Classi header */
 
 .navSct {
@@ -48,19 +71,47 @@ footer {
     background-color: #0084FD;
 }
 
+.navDesktop {
+    display: none;
+}
+
+.navDesktop > a {
+    color: white;
+    text-decoration: none;
+    padding: 0 1em;
+}
+
+#whiteBtn {
+    background: white;
+    color: black;
+    padding: 0.5em;
+    border-radius: 20px;
+}
 
 /* Classi main */
 
     /* Section 1 */
 
 .lSide > img {
-    width: 30%;
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    padding-top: 3em;
 }
 
 .section1 {
     padding: 2em 1em;
 }
 
+.section1 h3 {
+    color: #0084FD;
+    font-size: 20px;
+}
+
+.bluBtn {
+    background-color: #0084FD;
+    color: white;
+}
     /* Section 2 */
 
 .section2 {
@@ -161,5 +212,31 @@ footer {
 
     .containerS4 {
         width: 31%;
+    }
+
+    /* Nav Bar */
+    .navR {
+        display: none;
+    }
+
+    .navDesktop {
+        display: inline-block;
+    }
+
+    .flexDsk {
+        display: flex;
+    }
+
+    /* Section 1 */
+    .lSide {
+        width: 40%;
+    }
+
+    .lSide > img {
+        width: 90%;
+    }
+
+    .rSide {
+        width: 60%;
     }
 }
