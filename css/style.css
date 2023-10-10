@@ -17,15 +17,12 @@ p {
     padding: 2em 0;
 }
 
+
 /* Classi generiche */
 
 .lightBlue {
     background: #B5DDFF;
 }
-
-/* .mTB1 {
-    margin: 1em 0;
-} */
 
 .pCard {
     padding: 0.5em;
@@ -35,12 +32,40 @@ p {
     background: white;
 }
 
+.white {
+    color: white;
+}
+
 .w100 {
     width: 100%;
 }
 
+.w90 {
+    width: 90%;
+}
+
+.w60 {
+    width: 60%;
+}
+
+.mBot4 {
+    margin-bottom: 4em;
+}
+
+.mBot1 {
+    margin-bottom: 1em;
+}
+
+.mTop1 {
+    margin-top: 1em;
+}
+
 .borderR20 {
     border-radius: 20px;
+}
+
+.borderR50 {
+    border-radius: 50px;
 }
 
 .centerStyle {
@@ -51,10 +76,24 @@ p {
     padding: 2em 1em 0 1.5em;
 }
 
+.paddingCard {
+    padding: 2em 1.5em;
+}
+
 .btn {
     text-decoration: none;
     padding: 0.7em 3em;
     border-radius: 20px;
+}
+
+.whiteH3 {
+    font-size: 2em;
+    color: white;
+    margin: 1em 0;
+}
+
+.fontW100 {
+    font-weight: 100;
 }
 
 /* Classi header */
@@ -88,6 +127,7 @@ p {
     border-radius: 20px;
 }
 
+
 /* Classi main */
 
     /* Section 1 */
@@ -105,18 +145,52 @@ p {
 
 .section1 h3 {
     color: #0084FD;
-    font-size: 20px;
+    font-size: 1.5em;
 }
 
 .bluBtn {
     background-color: #0084FD;
     color: white;
 }
+
+.icon1 {
+    font-size: 6em;
+    color: #0084FD;
+    margin-bottom: 0.4em;
+}
     /* Section 2 */
 
 .section2 {
     background: #9792E4;
     padding: 2em 1.5em;
+}
+
+.freccia {
+    background: #9792E4;
+    width: 3em;
+    height: 3em;
+    padding: 1em;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+    /* Section 3 */
+
+.section3 {
+    text-align: center;
+}
+
+.violetH2 {
+    font-size: 2em;
+    color: #9792E4;
+    margin: 1em 0;
+}
+
+.customerImg {
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    object-fit: cover;
 }
 
     /* Section 3-4-5-6 */
@@ -150,6 +224,7 @@ p {
     margin: 0 auto;
     max-width: 380px;
 }
+
 
 /* MEDIA QUERY */
 
@@ -186,6 +261,17 @@ p {
 
     .container50 {
         width: 50%;
+    }
+
+    /* Section 3 */
+    .section3 .paddingCard {
+        display: flex;
+        align-items: center;
+        text-align: start;
+    }
+
+    .customerL {
+        padding-right: 3em;
     }
 }
 
@@ -233,10 +319,15 @@ p {
     }
 
     .lSide > img {
-        width: 90%;
+        width: 114%;
     }
 
     .rSide {
         width: 60%;
+    }
+
+    /* Section 2 */
+    #margin10 {
+        margin: 20em 0 0 3em;
     }
 }
