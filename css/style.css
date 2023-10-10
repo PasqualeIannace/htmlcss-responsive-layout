@@ -10,6 +10,11 @@ body {
 
 footer {
     background: #333333;
+    color: white;
+}
+
+footer a {
+    color: #9792E4;
 }
 
 p {
@@ -89,14 +94,16 @@ p {
 .whiteH3 {
     font-size: 2em;
     color: white;
-    margin: 1em 0;
+    margin: 1em 0 2em 0;
 }
 
 .fontW100 {
     font-weight: 100;
 }
 
-/* Classi header */
+
+
+/* CLASSI header */
 
 .navSct {
     display: flex;
@@ -128,7 +135,7 @@ p {
 }
 
 
-/* Classi main */
+/* CLASSI main */
 
     /* Section 1 */
 
@@ -218,6 +225,75 @@ p {
     margin: 2em 0;
 }
 
+.containerS4 h2 {
+    color: #9792E4;
+    font-size: 50px;
+    margin-bottom: 0.5em;
+}
+
+.containerS4 h3 {
+    color: #9792E4;
+    font-size: 1.5em;
+}
+
+.violetBtn {
+    background-color: #9792E4;
+    color: white;
+    font-weight: bold;
+}
+
+    /* Section 5 */
+
+.container50 > h2 {
+    font-size: 3em;
+    color: #9792E4;
+}
+
+.container50 > p {
+    line-height: 2em;
+}
+
+.about {
+    display: flex;
+    position: relative;
+    width: 240px;
+}
+
+.dubleQuote {
+    position: absolute;
+    right: 0;
+    font-size: 5em;
+    color: #9792E4;
+}
+
+.container50 h3 {
+    color: #9792E4;
+    font-size: 1.5em;
+    line-height: 1.5em;
+    margin: 1em 0;
+}
+
+    /* Section 6 */
+
+.container100 h3 {
+    font-size: 1.7em;
+    margin: 1em 0;
+}
+
+.container100 h2 {
+    color: #FDC05F;
+    font-size: 4em;
+}
+
+.whiteBtn {
+    background: white;
+    color: #9792E4;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 1.2em 5em;
+    border-radius: 30px;
+}
+
     /* Section 7 */
 
 .section7 {
@@ -273,6 +349,16 @@ p {
     .customerL {
         padding-right: 3em;
     }
+
+    /* Section 5 */
+
+    .mL5 {
+        margin-left: 5em;
+    }
+
+    /* Section 6 */
+
+    
 }
 
     /* Desktop */
